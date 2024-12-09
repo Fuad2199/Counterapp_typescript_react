@@ -1,0 +1,63 @@
+.app-counter {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 40px auto;
+}
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+.counter-display {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.button-group {
+    display: flex;
+    justify-content: space-around;
+}
+.button-group .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.button-group .increment {
+    background-color: #28a745;
+    color: white;
+}
+.button-group .decrement {
+    background-color: #dc3545;
+    color: white;
+}
+.button-group .reset {
+    background-color: #ffc107;
+    color: #333;
+}
+.button-group .btn:hover {
+    transform: translateY(-2px);
+}
+.button-group .btn:active {
+    transform: translateY(0);
+}
+.button-group button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+.button-group .button:hover {
+    background-color: #0056b3;
+}
